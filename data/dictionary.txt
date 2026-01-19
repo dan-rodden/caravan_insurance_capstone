@@ -2,8 +2,8 @@ DATA DICTIONARY
 
 Nr Name Description Domain
 1 MOSTYPE Customer Subtype see L0
-2 MAANTHUI Number of houses 1 ï¿½ 10
-3 MGEMOMV Avg size household 1 ï¿½ 6
+2 MAANTHUI Number of houses 1 – 10
+3 MGEMOMV Avg size household 1 – 6
 4 MGEMLEEF Avg age see L1
 5 MOSHOOFD Customer main type see L2
 6 MGODRK Roman catholic see L3
@@ -46,7 +46,7 @@ Nr Name Description Domain
 43 MKOOPKLA Purchasing power class
 44 PWAPART Contribution private third party insurance see L4
 45 PWABEDR Contribution third party insurance (firms) ...
-46 PWALAND Contribution third party insurance (agriculture)
+46 PWALAND Contribution third party insurane (agriculture)
 47 PPERSAUT Contribution car policies
 48 PBESAUT Contribution delivery van policies
 49 PMOTSCO Contribution motorcycle/scooter policies
@@ -176,13 +176,13 @@ L3:
 L4:
 
 0 f 0
-1 f 1 ï¿½ 49
-2 f 50 ï¿½ 99
-3 f 100 ï¿½ 199
-4 f 200 ï¿½ 499
-5 f 500 ï¿½ 999
-6 f 1000 ï¿½ 4999
-7 f 5000 ï¿½ 9999
+1 f 1 – 49
+2 f 50 – 99
+3 f 100 – 199
+4 f 200 – 499
+5 f 500 – 999
+6 f 1000 – 4999
+7 f 5000 – 9999
 8 f 10.000 - 19.999
 9 f 20.000 - ?
 
